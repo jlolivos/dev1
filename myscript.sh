@@ -25,7 +25,7 @@ function pullFromGit
 
 function pushtoGit
 {
-    gitOutput="`git add .`"
+    gitOutput="`git add -A`"
     echo "`date` : $gitOutput" >> $log 
     mesg="Changes updated by $name"
     #git commit -m "Changes updated by $name"
