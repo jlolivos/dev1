@@ -9,3 +9,24 @@ Changes not staged for commit:
 	modified:   myscript.sh
 
 no changes added to commit (use "git add" and/or "git commit -a")
+Thu 21 Oct 2021 09:43:16 AM CDT : 
+Thu 21 Oct 2021 09:43:16 AM CDT : [main 5e760da] Changes updated by Jorge
+ 2 files changed, 12 insertions(+), 202 deletions(-)
+ rewrite audit_log.txt (95%)
+Thu 21 Oct 2021 09:43:17 AM CDT :  main
+Thu 21 Oct 2021 12:34:12 PM CDT : Already up to date. main
+Thu 21 Oct 2021 12:34:13 PM CDT : On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   audit_log.txt
+	modified:   myscript.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.env
+	.~lock.Bash and git.docx#
+
+no changes added to commit (use "git add" and/or "git commit -a")

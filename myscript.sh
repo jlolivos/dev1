@@ -43,4 +43,5 @@ echo "Pulling files from git repository"
 pullFromGit $gitrepo
 echo "Get status"
 getStatus  
+echo "Pushing changes to git"
 pushtoGit 
