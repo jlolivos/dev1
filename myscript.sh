@@ -27,7 +27,10 @@ function pushtoGit
 {
     gitOutput="`git add .`"
     echo "`date` : $gitOutput" >> $log 
-    git commit -m "Changes updated by $name"
+    mesg="Changes updated by $name"
+    #git commit -m "Changes updated by $name"
+    gitOutput="`git commit -m "$mesg"`"
+    echo "`date` : $gitOutput" >> $log 
     gitOutput="`git push origin` $gitrepo"
     echo "`date` : $gitOutput" >> $log 
 }
